@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Ironman;
+  src: url(fonts/IRONMANFONT.ttf);
+}
+
+.main {
+  width: 100%;
+  background-color: white;
+}
+
+nav {
+  padding-left: 5%;
+  padding-right: 10%;
+  color: black;
+  font-family: "Ironman";
+  font-size: 1.5rem;
+}
+@media (max-width: 991px) {
+  nav {
+    font-size: calc(1vw + 1rem);
+  }
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 90px;
+}
+
+#tribute-link {
+  cursor: pointer;
+}
+#tribute-link:hover {
+  color: #aa0505;
+  transition: 0.3s;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  color: #aa0505;
+  transition: 0.3s;
+}
+
+.lowers {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94.8vh;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  padding-right: 30px;
+}
+
+.lower1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/markVI.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.lower1:hover {
+  background-image: url(images/markIII.webp);
+}
+
+.lower2 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  width: 500px;
+  height: 150px;
+  background-image: url(images/ironmanlogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.about {
+  padding-top: 30px;
+}
